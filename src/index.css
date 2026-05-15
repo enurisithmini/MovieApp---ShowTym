@@ -1,0 +1,14 @@
+
+/* stylelint: disable at-rule-no-unknown to allow Tailwind directives */
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg{
+    background: linear-gradient(rgb(0 0 0 / 66%), rgb(0 0 0 / 63%)),
+                url(https://img.magnific.com/free-photo/movie-background-collage_23-2149876028.jpg);
+    background-size:cover;
+    min-height:100vh ;
+    background-repeat: no-repeat;
+}
